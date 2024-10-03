@@ -40,3 +40,33 @@
 .read-the-docs {
   color: #888;
 }
+.cardList{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cardListColumn{
+  background-color: #dddfe055;
+  margin: 0px 10px 0px 10px;
+  width: 200px;
+  top: 10px;  
+  padding-bottom: 20px;
+  border-radius: 3px;
+}
+
+.cardListContainer{
+  display: flex;
+  flex-direction: row;
+}
+.search-bar {
+  margin: 10px 0px 30px 0px;  
+
+}
+.search-bar input{
+  margin-inline: 2rem;
+  border-radius: 3px;
+  border-style: solid;
+  border:none;  
+  border-bottom: 2px solid #dddfe055;
+  outline: none;
+}
